@@ -13,7 +13,7 @@ This project is create for research popose use for wattering in garden or farm b
 | Arduino UNO R3 MEGA328 + USB Cable     | x1       |
 | Sensor Shield UNO IO Expansion         | x1       |
 | HC-05 Wireless Serial 6pins            | x1       |
-| Soil Miosture Meter Detection          | x1       |
+| Soil Moisture Meter Detection          | x1       |
 | 5V Relay Module Blue Board             | x1       |
 | Water Pump Mini 3-6V                   | x1       |
 | Water Pipe                             | 1meter   |
@@ -34,9 +34,9 @@ This project is create for research popose use for wattering in garden or farm b
 
 ![HC-05 Wireless Serial 6pins](/images/HC-05_Wireless_Serial_6pins.webp "HC-05 Wireless Serial 6pins")
 
-- Soil Miosture Meter Detection
+- Soil Moisture Meter Detection
 
-![Soil Miosture Meter Detection](/images/Soil_Miosture_Meter_Detection.jpeg "Soil Miosture Meter Detection")
+![Soil Moisture Meter Detection](/images/Soil_Moisture_Meter_Detection.jpeg "Soil Moisture Meter Detection")
 
 - 5V Relay Module Blue Board
 
