@@ -56,3 +56,7 @@ This project is create for research popose use for wattering in garden or farm b
 
 - Batter Hoilder AA x4
 ![Batter Hoilder AA x4](images/Batter_Hoilder_AA_x4.jpeg "Batter Hoilder AA x4")
+
+- Sketch
+
+![Sketch](images/Sketch_image.png "Sketch")
