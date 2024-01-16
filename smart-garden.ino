@@ -26,6 +26,7 @@ void setup() {
   pinMode(ledPin, OUTPUT);
   pinMode(relayPin, OUTPUT);    //
   digitalWrite(relayPin, LOW); // not wattering by default
+  //  mySerial.begin(38400);
 }
 
 void startWattering() {
@@ -55,18 +56,18 @@ void loop() {
   // Convert soil moisture value to percentage (adjust the mapping based on your sensor)
   float moisturePercentage = map(soilMoistureValue, 0, 1023, 0, 100);
   if (!isRemoteByPhone) {
-    if (moisturePercentage >= 25) {
+    if (moisturePercentage >= 85) {
       startWattering();
-    } else if (moisturePercentage <= 18) {
+    } else if (moisturePercentage <= 70) {
       stopWattering();
     }
   }
-  Serial.print("Soil Moisture: ");
-  Serial.print(moisturePercentage);
-  Serial.println("%");
-  mySerial.print("Soil Moisture: ");
-  mySerial.print(moisturePercentage);
-  mySerial.println("%");
+  //  Serial.print("Soil Moisture: ");
+  //  Serial.print(moisturePercentage);
+  //  Serial.println("%");
+  //  mySerial.print("Soil Moisture: ");
+  //  mySerial.print(moisturePercentage);
+  //  mySerial.println("%");
 
   delay(100);
 }
