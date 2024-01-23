@@ -30,12 +30,12 @@ void setup() {
 }
 
 void startWattering() {
-  digitalWrite(ledPin, HIGH);
+  digitalWrite(ledPin, LOW);
   digitalWrite(relayPin, HIGH);
 }
 
 void stopWattering() {
-  digitalWrite(ledPin, LOW);
+  digitalWrite(ledPin, HIGH);
   digitalWrite(relayPin, LOW);
 }
 
@@ -62,12 +62,12 @@ void loop() {
       stopWattering();
     }
   }
-  //  Serial.print("Soil Moisture: ");
-  //  Serial.print(moisturePercentage);
-  //  Serial.println("%");
-  //  mySerial.print("Soil Moisture: ");
-  //  mySerial.print(moisturePercentage);
-  //  mySerial.println("%");
+  Serial.print("Soil Moisture: ");
+  Serial.print(moisturePercentage);
+  Serial.println("%");
+  mySerial.print("Soil Moisture: ");
+  mySerial.print(moisturePercentage);
+  mySerial.println("%");
 
   delay(100);
 }
